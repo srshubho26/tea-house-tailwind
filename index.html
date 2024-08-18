@@ -10,6 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
+    <style>
+        body{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -19,9 +25,6 @@
           }
         }
       </script>
-
-      <!-- Fontawesome -->
-      <script src="https://kit.fontawesome.com/a59243922a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main class="max-w-screen-xl mx-auto px-3">
@@ -79,15 +82,15 @@
         </section>
 
         <section class="my-16 max-w-[450px] mx-auto sm:max-w-full md:flex md:justify-between md:items-center">
-            <div class="sm:grid grid-cols-2 grid-rows-4 gap-3 md:basis-1/2 md:pr-5">
-                <div class="my-1 sm:m-0 rounded-md min-h-28 bg-gradient-to-l from-[rgba(255,0,0,0.1)] to-[rgba(255,136,56,0.1)] sm:row-span-1 sm:col-span-1"></div>
-                <div class="my-1 sm:m-0 content-center rounded-md min-h-28 bg-[#E6A6231A] p-4 sm:col-start-2 sm:row-start-1 sm:row-end-4">
+            <div class="sm:grid grid-cols-2 gap-3 md:basis-1/2 md:pr-5">
+                <div class="my-1 sm:m-0 rounded-md min-h-28 bg-gradient-to-l from-[rgba(255,0,0,0.1)] to-[rgba(255,136,56,0.1)]"></div>
+                <div class="my-1 sm:m-0 content-center rounded-md bg-[#E6A6231A] p-4 sm:row-span-2">
                     <img class="mx-auto" src="images/fresh-1.png">
                 </div>
-                <div class="my-1 sm:m-0 content-center rounded-md min-h-28 bg-[#5776391A] p-4 sm:row-start-2 sm:row-end-5 sm:col-span-1">
+                <div class="my-1 sm:m-0 content-center rounded-md bg-[#5776391A] p-4 sm:row-span-2">
                     <img class="mx-auto" src="images/fresh-2.png">
                 </div>
-                <div class="my-1 sm:m-0 rounded-md min-h-28 bg-gradient-to-r from-[#D9D9D9] to-[#f4f4f400] sm:col-start-2 sm:row-start-4"></div>
+                <div class="my-1 sm:m-0 rounded-md min-h-28 bg-gradient-to-r from-[#D9D9D9] to-[#f4f4f400]"></div>
             </div>
 
             <div class="mt-10 md:m-0 md:basis-1/2 md:pl-5">
@@ -99,6 +102,149 @@
                 <p class="text-base font-medium text-stone-500 lg:pr-32">Premium Quality that makes tea more elegant and more durable when you use it.</p>
             </div>
         </section>
+
+        <section class="md:flex py-5 px-3 md:px-4 lg:px-10 xl:px-16 lg:py-12 bg-[url('images/bg_cup.png'),linear-gradient(270.00deg,rgb(255,0,0),rgb(255,137,56))] bg-no-repeat bg-left-bottom bg-contain rounded-lg">
+            <div class="md:basis-1/2 text-center md:text-left md:flex flex-col justify-center items-start md:pr-3 lg:pr-5">
+                <h2 class="text-white text-3xl sm:text-5xl md:text-4xl lg:text-5xl font-extrabold">Meet Our Super Clients</h2>
+                <p class="text-white my-6 sm:my-8 text-sm sm:text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                <a href="#" class="bg-white rounded-lg text-xl font-bold px-8 py-3 pb-4">
+                    <span class="bg-gradient-to-l from-[#FF0000] to-[#FF8938] bg-clip-text text-transparent">
+                        Show All
+                    </span>
+                </a>
+            </div>
+
+            <div class="md:basis-1/2 sm:pl-4 md:pl-3 lg:pl-5 sm:mt-20 md:m-0 relative">
+                <div class="bg-white relative mx-auto mt-16 sm:m-0 sm:ml-auto sm:my-12 rounded-lg p-4 sm:p-8 lg:p-10 text-center sm:text-left sm:opacity-40 max-w-[440px] md:max-w-[calc(100%-20px)] lg:max-w-[400px] xl:max-w-[440px]">
+                    <img class="mx-auto sm:m-0 sm:absolute -left-5 -top-5 w-16 h-16 p-1 bg-white rounded-full" src="images/client.png">
+                    <p class="text-base text-stone-400 lead-7 mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                    <h4 class="text-base text-stone-900 font-bold">Ilham Yuda</h4>
+                    <h5 class="text-base text-stone-500 font-medium">Businessman</h5>
+                </div>
+
+                <div class="bg-white mx-auto mt-2 sm:m-0 rounded-lg p-4 sm:p-8 lg:p-10 text-center sm:text-left relative sm:absolute z-10 sm:left-5 md:left-0 lg:left-5 sm:top-1/2 sm:-translate-y-1/2 max-w-[440px] md:max-w-[calc(100%-20px)] lg:max-w-[400px] xl:max-w-[440px]">
+                    <img class="mx-auto sm:m-0 sm:absolute -left-5 -top-5 w-16 h-16 p-1 bg-white rounded-full" src="images/client.png">
+                    <p class="text-base text-stone-400 lead-7 mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                    <h4 class="text-base text-stone-900 font-bold">Ilham Yuda</h4>
+                    <h5 class="text-base text-stone-500 font-medium">Businessman</h5>
+                    <img class="absolute bottom-5 right-5" src="images/circles.png">
+                </div>
+
+                <div class="bg-white relative mx-auto mt-2 sm:m-0 sm:ml-auto sm:my-12 rounded-lg p-4 sm:p-8 lg:p-10 text-center sm:text-left sm:opacity-40 max-w-[440px] md:max-w-[calc(100%-20px)] lg:max-w-[400px] xl:max-w-[440px]">
+                    <img class="mx-auto sm:m-0 sm:absolute -left-5 -top-5 w-16 h-16 p-1 bg-white rounded-full" src="images/client.png">
+                    <p class="text-base text-stone-400 lead-7 mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                    <h4 class="text-base text-stone-900 font-bold">Ilham Yuda</h4>
+                    <h5 class="text-base text-stone-500 font-medium">Businessman</h5>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-24">
+            <div class="text-center max-w-[1024px] mx-auto">
+                <h2 class="text-4xl lg:text-5xl text-stone-700 font-extrabold">News &amp; Events</h2>
+                <p class="my-5 text-base font-medium text-stone-700">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            </div>
+
+            <div class="max-w-md sm:max-w-full mx-auto sm:grid sm:grid-cols-2 md:grid-cols-3 gap-3 lg:gap-5">
+                <div class="my-3 border border-stone-400 rounded-lg p-2 lg:p-5">
+                    <img class="w-full border border-stone-400 border-dashed rounded-lg mb-2 lg:mb-5" src="images/news-1.png">
+                    <div class="lg:px-3">
+                        <h6 class="text-base font-medium text-stone-400 mb-2 lg:mb-5">Feb 05, 2027</h6>
+                        <h3 class="text-xl font-extrabold text-stone-900 mb-2 lg:mb-5">Collecting 8 points for discount</h3>
+                        <p class="text-base font-medium text-stone-400 mb-2 lg:mb-5">There are many variations of passages of Lorem Ipsum available.</p>
+                        <a class="text-base font-bold text-stone-900" href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="my-3 border border-stone-400 rounded-lg p-2 lg:p-5">
+                    <img class="w-full border border-stone-400 border-dashed rounded-lg mb-2 lg:mb-5" src="images/news-2.png">
+                    <div class="lg:px-3">
+                        <h6 class="text-base font-medium text-stone-400 mb-2 lg:mb-5">Feb 05, 2027</h6>
+                        <h3 class="text-xl font-extrabold text-stone-900 mb-2 lg:mb-5">Collecting 8 points for discount</h3>
+                        <p class="text-base font-medium text-stone-400 mb-2 lg:mb-5">There are many variations of passages of Lorem Ipsum available.</p>
+                        <a class="text-base font-bold text-stone-900" href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="my-3 border border-stone-400 rounded-lg p-2 lg:p-5">
+                    <img class="w-full border border-stone-400 border-dashed rounded-lg mb-2 lg:mb-5" src="images/news-3.png">
+                    <div class="lg:px-3">
+                        <h6 class="text-base font-medium text-stone-400 mb-2 lg:mb-5">Feb 05, 2027</h6>
+                        <h3 class="text-xl font-extrabold text-stone-900 mb-2 lg:mb-5">Collecting 8 points for discount</h3>
+                        <p class="text-base font-medium text-stone-400 mb-2 lg:mb-5">There are many variations of passages of Lorem Ipsum available.</p>
+                        <a class="text-base font-bold text-stone-900" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer class="px-3 py-12 lg:py-20 bg-gradient-to-l from-[rgba(255,0,0,0.1)] to-[rgba(255,137,56,0.1)]">
+        <div class="max-w-screen-xl mx-auto">
+            <div class="flex flex-wrap justify-center gap-5 sm:justify-between items-center mb-20">
+                <div>
+                    <img src="images/cup.png">
+                </div>
+    
+                <div class="flex flex-wrap justify-center sm:justify-normal items-center gap-5 md:gap-12">
+                    <p>Ready to get started?</p>
+                    <a href="#" class="rounded-md py-3 px-5 md:px-8 md:py-4 text-xl font-bold text-white bg-gradient-to-l from-[#FF0000] to-[#FF8938]">
+                        <span>Get Started</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="my-12 flex flex-wrap gap-8 justify-between">
+                <div>
+                    <h3 class="text-xl font-semibold text-stone-800 mb-2">Quick Links</h3>
+                    <ul>
+                        <li><a href="#" class="text-base text-stone-400 my-1 block">Home</a></li>
+                        <li><a href="#" class="text-base text-stone-400 my-1 block">About Us</a></li>
+                        <li><a href="#" class="text-base text-stone-400 my-1 block">Insurance</a></li>
+                        <li><a href="#" class="text-base text-stone-400 my-1 block">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold text-stone-800 mb-2">Our Service</h3>
+                    <ul>
+                        <li><a href="#" class="text-base text-stone-400 my-1 block">Life Insurance</a></li>
+                        <li><a href="#" class="text-base text-stone-400 my-1 block">Car Insurance</a></li>
+                        <li><a href="#" class="text-base text-stone-400 my-1 block">Health Insurance</a></li>
+                        <li><a href="#" class="text-base text-stone-400 my-1 block">House Insurance</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold text-stone-800 mb-2">Help</h3>
+                    <ul>
+                        <li><a href="#" class="text-base text-stone-400 my-1 block">FAQs</a></li>
+                        <li><a href="#" class="text-base text-stone-400 my-1 block">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-stone-800 text-2xl font-semibold mb-3">Subscribe to our newsletter</h3>
+
+                    <form class="flex items-center gap-3">
+                        <input type="email" placeholder="Email Address" class="placeholder:text-stone-800 text-sm bg-transparent border-b py-4 outline-none flex-grow border-b-stone-600">
+
+                            <button href="#" class="rounded-full w-7 h-7 p-1 bg-gradient-to-l from-[#FF0000] to-[#FF8938]">
+                                <img class="mx-auto" src="images/angle.png">
+                            </button>
+                        
+                    </form>
+
+                    <div class="flex gap-10 mt-10">
+                        <a href="#"><img src="images/fb.png"></a>
+                        <a href="#"><img src="images/tw.png"></a>
+                        <a href="#"><img src="images/insta.png"></a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-base text-center text-stone-500 font-medium">&copy; 2027 UIDesign.to - All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
