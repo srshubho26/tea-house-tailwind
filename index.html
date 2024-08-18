@@ -10,23 +10,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
-    <style>
-        body{
-            font-family: "Manrope", sans-serif;
-        }
-    </style>
-
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
           theme: {
-            extend: {}
+            extend: {
+                fontFamily: {
+                    manrope: ["Manrope", "sans-serif"]
+                }
+            }
           }
         }
       </script>
 </head>
-<body>
+<body class="font-manrope">
     <main class="max-w-screen-xl mx-auto px-3">
         <header class="py-10 lg:py-16 max-w-[450px] mx-auto sm:max-w-full sm:flex justify-between items-center">
             <div class="sm:basis-1/2 text-center sm:text-left mb-8 sm:mb-0">
